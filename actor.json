@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "reclameaqui-scraper",
+    "title": "Reclame Aqui Scraper — CSV/Excel",
+    "description": "Extrai reclamações, indicadores e categorias de qualquer empresa no Reclame Aqui. Exporta 7 tabelas estruturadas em CSV prontas para Excel e Google Sheets.",
+    "version": "1.0.0",
+    "buildTag": "latest",
+    "dockerfile": "./Dockerfile",
+    "input": "./.actor/input_schema.json",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "fields": {},
+            "views": {}
+        }
+    }
+}
